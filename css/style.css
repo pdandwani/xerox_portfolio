@@ -1,20 +1,21 @@
 .carousel-fade{
-    background:yellow;
+    background:;
     
 }
 .carousel-inner{
-    -webkit-clip-path: polygon(100% 0, 100% 73%, 80% 94%, 51% 100%, 20% 94%, 0 73%, 0 0);
-    clip-path: polygon(100% 0, 100% 73%, 80% 94%, 51% 100%, 20% 94%, 0 73%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 60%, 85% 85%, 51% 100%, 15% 85%, 0 60%, 0 0);
+    clip-path: polygon(100% 0, 100% 60%, 85% 85%, 51% 100%, 15% 85%, 0 60%, 0 0);
     
 }
 .container{
     background:transparent;
-    color:black;
+    color:white;
     position:absolute;
     z-index:2;
     margin-top:15%;
     margin-left:1%;
 }
+
 @media screen and (max-width: 576px){
     .container .h1{
         font-size:32px;
