@@ -1,0 +1,22 @@
+.carousel-fade{
+    background:yellow;
+    
+}
+.carousel-inner{
+    -webkit-clip-path: polygon(100% 0, 100% 73%, 80% 94%, 51% 100%, 20% 94%, 0 73%, 0 0);
+    clip-path: polygon(100% 0, 100% 73%, 80% 94%, 51% 100%, 20% 94%, 0 73%, 0 0);
+    
+}
+.container{
+    background:transparent;
+    color:black;
+    position:absolute;
+    z-index:2;
+    margin-top:15%;
+    margin-left:1%;
+}
+@media screen and (max-width: 576px){
+    .container .h1{
+        font-size:32px;
+    }
+}
