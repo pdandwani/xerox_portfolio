@@ -1,23 +1,92 @@
-.carousel-fade{
-    background:;
+html {
+    scroll-behavior: smooth;
+  }
+.head{
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     
 }
-.carousel-inner{
-    -webkit-clip-path: polygon(100% 0, 100% 60%, 85% 85%, 51% 100%, 15% 85%, 0 60%, 0 0);
-    clip-path: polygon(100% 0, 100% 60%, 85% 85%, 51% 100%, 15% 85%, 0 60%, 0 0);
+.one{
+    padding-bottom:;
+    background:rgb(246,239,238); 
+}
+.two{
+    padding-bottom:;
+    background:rgb(241,247,237);
     
 }
-.container{
-    background:transparent;
-    color:white;
-    position:absolute;
-    z-index:2;
-    margin-top:7%;
-    margin-left:1%;
+.w{
+    width:100px;
+    height:100px;
+}
+.w-50:hover{
+    opacity:0.7;
 }
 
-@media screen and (max-width: 576px){
-    .container .h1{
-        font-size:32px;
+  
+.shape{
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    padding-bottom:25%;
+    
+}
+@media only screen and (max-width:768px){
+    .shape{
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
+        padding-bottom:;
     }
+    .one{
+        padding-bottom:30%;
+    }
+    .two{
+        padding-bottom:15%;
+        background:rgb(241,247,237);
+        margin-top:-45%;
+        padding-top:45%;
+      
+    }
+    
+}
+.d-block{
+    opacity:0.6;
+}
+#hide{
+    
+    position:sticky;
+    top:0;
+    z-index:9;
+    background: rgb(145,150,150);
+    display:;
+
+}
+.container{
+    
+    color:black;
+    position:absolute;
+    z-index:2;
+    margin-top:15%;
+    margin-left:1%;
+    padding:1%;
+}
+.footer{
+    background: black;
+    color: white;
+    
+}
+i{
+    cursor:pointer;
+    color:black;
+}
+.footer i{
+    color:white;
+}
+.footer button{
+    color:white;
+    border:1px solid white;
+}
+.footer button:hover{
+    background:white;
+    color:black;
+    border:1px solid black;
 }
