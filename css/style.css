@@ -34,7 +34,7 @@ html {
     .shape{
         -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0% 95%, 0 0);
         clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0% 95%, 0 0);
-        padding-bottom:15px;
+        padding-bottom:35%;
     }
     .one{
         padding-bottom:30%;
