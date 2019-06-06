@@ -37,6 +37,8 @@ html {
         padding-bottom:5%;
     }
     .head{
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     padding-bottom:25%;
     
 }
